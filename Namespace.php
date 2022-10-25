@@ -1,7 +1,7 @@
 <?php
 
-require_once "data/Conflict.php";
-require_once "data/Helper.php";
+require_once "Data/Conflict.php";
+require_once "Data/Helper.php";
 
 $conflict1 = new Data\One\Conflict();
 $conflict2 = new Data\Two\Conflict();

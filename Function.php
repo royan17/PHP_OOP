@@ -1,5 +1,5 @@
 <?php
-require_once "data/Person.php";
+require_once "Data/Person.php";
 
 // cara akses function di object nya
 $royan = new Person("Royan", "Tangerang");

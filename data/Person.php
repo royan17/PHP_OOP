@@ -36,7 +36,7 @@ class Person
 
     // function destruct
     // Destructor adalah function yang akan dipanggil ketika object dihapus dari memory
-    // dalam penggunaan sehari-hari, ini misal cocok untuk menutup koneksi ke database atau menutup
+    // dalam penggunaan sehari-hari, ini misal cocok untuk menutup koneksi ke Database atau menutup
     // proses menulis file, sehingga tidak terjadi leak memory
     function __destruct()
     {

@@ -1,6 +1,6 @@
 <?php
 
-require_once "data/Gategory.php";
+require_once "Data/Gategory.php";
 
 $category = new Category();
 $category->setName("Handphone");

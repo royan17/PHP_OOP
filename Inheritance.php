@@ -1,6 +1,6 @@
 <?php
 
-require "data/Manager.php";
+require "Data/Manager.php";
 
 $manager = new Manager();
 $manager->name = "Budi";
