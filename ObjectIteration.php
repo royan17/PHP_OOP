@@ -9,11 +9,19 @@ class Data implements IteratorAggregate
 
     public function getIterator()
     {
+        // $array = [
+        //     "first" => $this->first,
+        //     "second" => $this->second,
+        //     "third" => $this->third,
+        //     "fourth" => $this->fourth,
+        // ];
+
+        // cara menggunakan yield: untuk meng generate Iterator secara otomatis
         $array = [
-            "first" => $this->first,
-            "second" => $this->second,
-            "third" => $this->third,
-            "fourth" => $this->fourth,
+            yield "first" => $this->first,
+            yield "second" => $this->second,
+            yield "third" => $this->third,
+            yield "fourth" => $this->fourth,
         ];
 
         // cara 1
